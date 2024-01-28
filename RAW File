@@ -1,0 +1,20 @@
+div.a {
+  line-height: 0.3;
+  width: 130px;
+  height: 110px;
+  transition: width 2s;
+  text-transform: none;
+}
+div {
+  width: 130px;
+  height: 110px;
+  background: #8CC0DE;
+  transition: width 2s;
+}
+div.a:hover {
+  width: 600px;
+}
+
+div:hover {
+  width: 600px;
+}

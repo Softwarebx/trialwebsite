@@ -1,0 +1,91 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+.top-left {
+   position: absolute;
+   top: 10%;
+   left: 50%;
+   color: white;
+   transform: translate(-50%, -50%);
+   font-size: 20px;
+ }
+ .top-right {
+   position: absolute;
+   top: 10%;
+   left: 60%;
+   color: white;
+   transform: translate(-50%, -50%);
+   font-size: 20px;
+ }
+ .top-up {
+   position: absolute;
+   top: 10%;
+   left: 70%;
+   color: white;
+   transform: translate(-50%, -50%);
+   font-size: 20px;
+ }
+ .top-down {
+   position: absolute;
+   top: 10%;
+   left: 80%;
+   color: white;
+   transform: translate(-50%, -50%);
+   font-size: 20px;
+ }
+ .cart {
+   position: absolute;
+   top: 5.5%;
+   left: 87%;
+ }
+.profile {
+ position: absolute;
+ top: 7.6%;
+ left: 91%;
+}
+.responsive {
+   position: absolute;
+   top: 0%;
+   width: 100%;
+   height: auto;
+   size: 10px;
+   margin: 0px;
+   padding: inherit;
+   background-size: cover;
+   background-repeat: no-repeat;
+}
+.btn {
+ position: absolute;
+ top: 10%;
+ left: 37%;
+ transform: translate(-50%, -50%);
+ -ms-transform: translate(-50%, -50%);
+ background-color: red;
+ color: white;
+ font-size: 16px;
+ padding: 12px 24px;
+ border: none;
+ cursor: pointer;
+ border-radius: 5px;
+ text-align: center;
+}
+.btn:hover {
+ background-color: white;
+ color: red;
+ }
+ .text-block {
+ position: absolute;
+ top: 0px;
+ right: 0px;
+ background-color: black;
+ color: white;
+ width: 1520px;
+ height: 135px;
+ opacity: 0.4;
+}
+.logo {
+ position: absolute;
+ top:4.5%;
+ left:10.5%;
+}
